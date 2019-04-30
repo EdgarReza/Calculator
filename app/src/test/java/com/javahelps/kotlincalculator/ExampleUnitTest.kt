@@ -21,9 +21,4 @@ class ExampleUnitTest {
         assertEquals(5, 2 + 2)
     }
 
-    @Test
-    fun TestJava8installed () {
-        assumeTrue(System.getProperty("java.version").startsWith("1.8"))
-        print("Not too old version")
     }
-}
