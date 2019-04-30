@@ -23,7 +23,7 @@ class ExampleUnitTest {
 
     @Test
     fun TestJava8installed () {
-        assumeTrue(System.getProperty("java.version").startsWith("1.7"))
+        assumeTrue(System.getProperty("java.version").startsWith("1.8"))
         print("Not too old version")
     }
 }
