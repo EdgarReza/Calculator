@@ -18,7 +18,7 @@ class ExampleUnitTest {
 
     @Test
     fun addition_isIncorrect() {
-        assertEquals(5, 2 + 2)
+        assertEquals(4, 2 + 2)
     }
 
     }
